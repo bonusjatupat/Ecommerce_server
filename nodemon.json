@@ -1,0 +1,7 @@
+{
+    "env": {
+        "MONGO_ATLAS_PW": "secureParkingSystem",
+        "PORT": 3030,
+        "JWT_SECRET": "MY_SECRET_KEY"
+    }
+}
