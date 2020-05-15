@@ -2,8 +2,6 @@ const express = require('express')
     , mongoose = require('mongoose')
     , router = require('./routes')
 
-const _CONFIG = require("./misc/config");
-
 const app = express();
 
 mongoose.connect('mongodb+srv://secureParkingSystem:' + process.env.MONGO_ATLAS_PW +'@sps-arks6.mongodb.net/Ecommerce?retryWrites=true&w=majority', 
